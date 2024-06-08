@@ -1,10 +1,14 @@
-import './App.css';
+import "./App.css";
+import Header from "./component/Header";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcom LITTLE LEMON</h1>
-    </div>
+    <>
+      <Header />
+      <nav></nav>
+      <main></main>
+      <footer></footer>
+    </>
   );
 }
 
